@@ -1,0 +1,15 @@
+<app-divider [title]="'Memnuniyet Anketi'"></app-divider>
+<app-table></app-table>
+
+<app-divider [title]="'Extra Bilgiler'"></app-divider>
+<app-extra>
+    <a routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="item">
+        Sertifika
+       </a>
+       <a routerLink="./componies" routerLinkActive="active" class="item">
+           Companies
+       </a>
+       <a routerLink="./partners" routerLinkActive="active" class="item">
+           Partners
+       </a>
+</app-extra>
